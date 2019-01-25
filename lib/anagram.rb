@@ -7,10 +7,9 @@ class Anagram
     @word = word
   end 
   
-  def match(array)
-    matches = []
-    tester = array.each {|word| word.split}
-    binding.pry 
+  def match(possible_anagrams)
+    possible_anagrams.select {|word| word.split("")
+  
   end 
     
 end 
