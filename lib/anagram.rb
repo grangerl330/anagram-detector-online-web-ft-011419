@@ -8,6 +8,8 @@ class Anagram
   end 
   
   def match(array)
+    matches = []
+    test = array.each {|word| word.split}
     binding.pry 
   end 
     
